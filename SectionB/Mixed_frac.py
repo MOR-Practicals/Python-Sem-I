@@ -1,6 +1,6 @@
 def mixed_frac(numerator,denominator):
     if(numerator%denominator==0):
-        return "WHOLE NUMBER {}".format(numerator/denominator)
+        return "WHOLE NUMBER {}/1".format(numerator/denominator)
     else:
         return "MIXED FRACTION {} {}/{}".format(numerator//denominator, numerator%denominator, denominator)
    
